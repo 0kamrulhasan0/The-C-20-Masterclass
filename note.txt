@@ -1,0 +1,35 @@
+3 types of errors:
+1) Compile Time: Errors are shown at compile time.
+2) Run Time:        Errors are shown at run time.
+3) Warning:         During Compilation
+
+
+std::cout
+std::cin
+std::cerr
+std::clog
+
+std::getline(std::cin, name);
+
+
+Standard Library: iostream, string. 
+STL: container types, algorithms for these types.
+
+
+---------------------------------------------------------------
+signed int       4 byte     -2.1 Billions to +2.1 Billions 
+unsigned int     4 byte     0 to 4.2 Billions 
+---------------------------------------------------------------
+signed short     2 byte     -32k to +32k
+unsigned short   2 byte     0 to 64k 
+---------------------------------------------------------------
+signed long      8 byte   
+unsigned long    8 byte   
+---------------------------------------------------------------
+signed byte      1 byte     -128 to +127
+unsigned byte    1 byte     0 to +256 
+---------------------------------------------------------------
+---------------------------------------------------------------
+float            4 byte     7 digit precision
+double           8 byte     15 digit precision
+long double      16 byte    more than 15 digit precision
